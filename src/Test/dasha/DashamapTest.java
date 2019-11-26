@@ -38,4 +38,17 @@ Dashamap dash;
         Assert.assertEquals(expected, actual);
     }
 
+    @Test
+    public void deleteTest(){
+       dash.delete("Ice cream");
+       Assert.assertEquals(null, dash.get("Ice cream"));
+    }
+
+    @Test
+    public void isEmpty(){
+       dash.delete("Ice cream");
+       dash.delete("Cookie");
+       Assert.assertFalse(dash.isEmpty());
+    }
+
 }

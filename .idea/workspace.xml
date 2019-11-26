@@ -2,23 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fa3e8de-ab0c-4ead-9e2a-945a678a9e3f" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/$PRODUCT_WORKSPACE_FILE$" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_annotations_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_core_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_10_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_13_rc_1.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test/dasha/DashamapTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/dasha/Dashamap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/dasha/HashMapX.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/dasha/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/java/dasha/Node.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/encodings.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DashaMaps.iml" beforeDir="false" afterPath="$PROJECT_DIR$/DashaMaps.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Test/dasha/DashamapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/dasha/DashamapTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/dasha/Dashamap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/dasha/Dashamap.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/java/dasha/HashMapX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/dasha/HashMapX.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dasha/Dashamap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dasha/Dashamap.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/dasha/HashMapX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dasha/HashMapX.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/dasha/DashamapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dasha/DashamapTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -71,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DashamapTest">
+  <component name="RunManager" selected="JUnit.DashamapTest.isEmpty">
     <configuration name="DashamapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DashaMaps" />
       <extension name="coverage">
@@ -88,7 +78,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DashamapTest.setTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DashamapTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DashaMaps" />
       <extension name="coverage">
         <pattern>
@@ -98,7 +88,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="dasha" />
       <option name="MAIN_CLASS_NAME" value="dasha.DashamapTest" />
-      <option name="METHOD_NAME" value="setTest" />
+      <option name="METHOD_NAME" value="deleteTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashamapTest.isEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DashaMaps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dasha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dasha" />
+      <option name="MAIN_CLASS_NAME" value="dasha.DashamapTest" />
+      <option name="METHOD_NAME" value="isEmpty" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -138,10 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DashamapTest.isEmpty" />
+        <item itemvalue="JUnit.DashamapTest.deleteTest" />
         <item itemvalue="JUnit.DashamapTest" />
         <item itemvalue="JUnit.DashamapTest.setTest1" />
         <item itemvalue="JUnit.DashamapTest.setTest2" />
-        <item itemvalue="JUnit.DashamapTest.setTest" />
       </list>
     </recent_temporary>
   </component>
@@ -155,7 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574705931969</updated>
-      <workItem from="1574705933156" duration="11958000" />
+      <workItem from="1574705933156" duration="16578000" />
     </task>
     <servers />
   </component>
