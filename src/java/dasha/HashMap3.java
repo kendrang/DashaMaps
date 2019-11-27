@@ -1,26 +1,19 @@
 package dasha;
 
-
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.Map;
-
-public class Dashamap implements HashMapX {
-
-
+public class HashMap3 implements HashMapX {
     Node[] dashaNode = new Node[26];
     Integer size = 0;
 
-    private String HashFunctionOne(String input) {
-        if (input.length() > 0) {
-            return (String.valueOf(input.charAt(0)).toLowerCase());
+    private String HashFunctionThree(String input) {
+        if (input.length() > 1) {
+            return (String.valueOf(input.charAt(0)).toLowerCase())+ String.valueOf(input.charAt(1)).toLowerCase();
         }
         return null;
     }
 
     @Override
     public void set(String key, Integer value) {
-        String result = HashFunctionOne(key);
+        String result = HashFunctionThree(key);
         char c = result.charAt(0);
         int index = c - 'a';
 
@@ -40,16 +33,16 @@ public class Dashamap implements HashMapX {
 
     @Override
     public void  delete(String key) {
-        String hash = HashFunctionOne(key);
+        String hash = HashFunctionThree(key);
         Integer index = hash.charAt(0) - 'a';
         Node head = dashaNode[index];
-        if (head.getKey() == key){
+        if (head.getKey().equals(key)){
             dashaNode[index] = head.next;
             size --;
         }
 
         while (head.next != null) {
-            if (head.next.getKey() == key) {
+            if (head.next.getKey().equals(key)) {
                 head.next = head.next.next;
                 break;
             }
@@ -60,7 +53,7 @@ public class Dashamap implements HashMapX {
 
     @Override
     public Integer get(String key) {
-        String hash = HashFunctionOne(key);
+        String hash = HashFunctionThree(key);
         int hashKey = hash.charAt(0) - 'a';
         for (Node node = dashaNode[hashKey]; node != null; node = node.getNext()) {
             if (node.getKey().equals(key)) {
@@ -87,13 +80,18 @@ public class Dashamap implements HashMapX {
     @Override
     public Integer bucketSize(String key) {
         Integer bucket = 0;
-       String hash =  HashFunctionOne(key);
-      Integer hashKey =  hash.toCharArray()[0] - 'a';
-      Node head = dashaNode[hashKey];
-      while (head != null){
-          bucket ++;
-          head = head.next;
-      }
-      return bucket;
+        String hash =  HashFunctionThree(key);
+        Integer hashKey =  hash.toCharArray()[0] - 'a';
+        Node head = dashaNode[hashKey];
+        while (head != null){
+            String check = head.getKey().substring(0,2).toLowerCase();
+            if(check.equals(hash)){
+                bucket++;
+            }
+            head = head.next;
+        }
+        return bucket;
     }
 }
+
+

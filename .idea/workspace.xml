@@ -2,13 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="7fa3e8de-ab0c-4ead-9e2a-945a678a9e3f" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Test/dasha/HashFunctionThreetest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/dasha/HashFunctionTwoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test/dasha/WordTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/dasha/HashMap2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/java/dasha/HashMap3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Test/dasha/DashamapTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Test/dasha/DashamapTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/java/dasha/Dashamap.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/dasha/Dashamap.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/java/dasha/HashMapX.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/java/dasha/HashMapX.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/dasha/Dashamap.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dasha/Dashamap.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/dasha/HashMapX.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/dasha/HashMapX.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/dasha/DashamapTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/dasha/DashamapTest.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -61,7 +62,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DashamapTest.bucketSizeTest">
+  <component name="RunManager" selected="JUnit.DashamapTest">
     <configuration name="DashamapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DashaMaps" />
       <extension name="coverage">
@@ -72,13 +73,12 @@
       </extension>
       <option name="PACKAGE_NAME" value="dasha" />
       <option name="MAIN_CLASS_NAME" value="dasha.DashamapTest" />
-      <option name="METHOD_NAME" value="setTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DashamapTest.bucketSizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HashFunctionThreetest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DashaMaps" />
       <extension name="coverage">
         <pattern>
@@ -87,14 +87,29 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dasha" />
-      <option name="MAIN_CLASS_NAME" value="dasha.DashamapTest" />
+      <option name="MAIN_CLASS_NAME" value="dasha.HashFunctionThreetest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="HashFunctionThreetest.bucketSizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DashaMaps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dasha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dasha" />
+      <option name="MAIN_CLASS_NAME" value="dasha.HashFunctionThreetest" />
       <option name="METHOD_NAME" value="bucketSizeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DashamapTest.deleteTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HashFunctionTwoTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DashaMaps" />
       <extension name="coverage">
         <pattern>
@@ -103,14 +118,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dasha" />
-      <option name="MAIN_CLASS_NAME" value="dasha.DashamapTest" />
-      <option name="METHOD_NAME" value="deleteTest" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="dasha.HashFunctionTwoTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DashamapTest.isEmpty" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="HashFunctionTwoTest.isEmptyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DashaMaps" />
       <extension name="coverage">
         <pattern>
@@ -119,24 +133,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="dasha" />
-      <option name="MAIN_CLASS_NAME" value="dasha.DashamapTest" />
-      <option name="METHOD_NAME" value="isEmpty" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DashamapTest.sizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DashaMaps" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dasha.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dasha" />
-      <option name="MAIN_CLASS_NAME" value="dasha.DashamapTest" />
-      <option name="METHOD_NAME" value="sizeTest" />
+      <option name="MAIN_CLASS_NAME" value="dasha.HashFunctionTwoTest" />
+      <option name="METHOD_NAME" value="isEmptyTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +142,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.DashamapTest.bucketSizeTest" />
-        <item itemvalue="JUnit.DashamapTest.sizeTest" />
-        <item itemvalue="JUnit.DashamapTest.isEmpty" />
-        <item itemvalue="JUnit.DashamapTest.deleteTest" />
         <item itemvalue="JUnit.DashamapTest" />
+        <item itemvalue="JUnit.HashFunctionThreetest.bucketSizeTest" />
+        <item itemvalue="JUnit.HashFunctionThreetest" />
+        <item itemvalue="JUnit.HashFunctionTwoTest.isEmptyTest" />
+        <item itemvalue="JUnit.HashFunctionTwoTest" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +160,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574705931969</updated>
-      <workItem from="1574705933156" duration="19662000" />
+      <workItem from="1574705933156" duration="26112000" />
     </task>
     <servers />
   </component>
@@ -184,9 +182,9 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/Test/dasha/DashamapTest.java</url>
-          <line>65</line>
-          <option name="timeStamp" value="2" />
+          <url>file://$PROJECT_DIR$/src/Test/dasha/HashFunctionThreetest.java</url>
+          <line>60</line>
+          <option name="timeStamp" value="15" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
