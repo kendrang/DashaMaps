@@ -61,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DashamapTest.isEmpty">
+  <component name="RunManager" selected="JUnit.DashamapTest.bucketSizeTest">
     <configuration name="DashamapTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DashaMaps" />
       <extension name="coverage">
@@ -74,6 +74,22 @@
       <option name="MAIN_CLASS_NAME" value="dasha.DashamapTest" />
       <option name="METHOD_NAME" value="setTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DashamapTest.bucketSizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="DashaMaps" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="dasha.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="dasha" />
+      <option name="MAIN_CLASS_NAME" value="dasha.DashamapTest" />
+      <option name="METHOD_NAME" value="bucketSizeTest" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,7 +126,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="DashamapTest.setTest1" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="DashamapTest.sizeTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="DashaMaps" />
       <extension name="coverage">
         <pattern>
@@ -120,23 +136,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="dasha" />
       <option name="MAIN_CLASS_NAME" value="dasha.DashamapTest" />
-      <option name="METHOD_NAME" value="setTest1" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="DashamapTest.setTest2" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="DashaMaps" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="dasha.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="dasha" />
-      <option name="MAIN_CLASS_NAME" value="dasha.DashamapTest" />
-      <option name="METHOD_NAME" value="setTest2" />
+      <option name="METHOD_NAME" value="sizeTest" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -144,11 +144,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.DashamapTest.bucketSizeTest" />
+        <item itemvalue="JUnit.DashamapTest.sizeTest" />
         <item itemvalue="JUnit.DashamapTest.isEmpty" />
         <item itemvalue="JUnit.DashamapTest.deleteTest" />
         <item itemvalue="JUnit.DashamapTest" />
-        <item itemvalue="JUnit.DashamapTest.setTest1" />
-        <item itemvalue="JUnit.DashamapTest.setTest2" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +162,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1574705931969</updated>
-      <workItem from="1574705933156" duration="16578000" />
+      <workItem from="1574705933156" duration="19662000" />
     </task>
     <servers />
   </component>
@@ -179,5 +179,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/Test/dasha/DashamapTest.java</url>
+          <line>65</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

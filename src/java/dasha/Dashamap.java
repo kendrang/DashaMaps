@@ -9,6 +9,7 @@ public class Dashamap implements HashMapX {
 
 
     Node[] dashaNode = new Node[26];
+    Integer size = 0;
 
     private String HashFunctionOne(String input) {
         if (input.length() > 0) {
@@ -27,11 +28,13 @@ public class Dashamap implements HashMapX {
         Node head = dashaNode[index];
         if (head == null) {
             dashaNode[index] = newNode;
+            size ++;
         } else {
             while (head.next != null) {
                 head = head.next;
             }
             head.next = newNode;
+            size ++;
         }
     }
 
@@ -42,6 +45,7 @@ public class Dashamap implements HashMapX {
         Node head = dashaNode[index];
         if (head.getKey() == key){
             dashaNode[index] = head.next;
+            size --;
         }
 
         while (head.next != null) {
@@ -49,6 +53,7 @@ public class Dashamap implements HashMapX {
                 head.next = head.next.next;
             }
             head = head.next;
+            size --;
         }
     }
 
@@ -75,11 +80,19 @@ public class Dashamap implements HashMapX {
 
     @Override
     public long size() {
-        return 0;
+        return size;
     }
 
     @Override
-    public boolean bucketSize(String key) {
-        return false;
+    public Integer bucketSize(String key) {
+        Integer bucket = 0;
+       String hash =  HashFunctionOne(key);
+      Integer hashKey =  hash.toCharArray()[0] - 'a';
+      Node head = dashaNode[hashKey];
+      while (head != null){
+          bucket ++;
+          head = head.next;
+      }
+      return bucket;
     }
 }

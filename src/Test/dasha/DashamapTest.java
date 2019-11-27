@@ -45,10 +45,24 @@ Dashamap dash;
     }
 
     @Test
-    public void isEmpty(){
+    public void isEmptyTest(){
        dash.delete("Ice cream");
        dash.delete("Cookie");
        Assert.assertFalse(dash.isEmpty());
     }
-
+    @Test
+    public void sizeTest(){
+       Integer expected = 4;
+       Assert.assertEquals(expected, dash.size);
+    }
+    @Test
+    public void bucketSizeTest(){
+       dash.set("Bread", 40);
+       dash.set("Bon Bons", 20);
+       dash.set("Biscuits",10);
+       dash.set("Bignets", 1);
+       dash.set("Buns" , 7);
+       Integer expected = 5;
+       Assert.assertEquals(expected, dash.bucketSize("B"));
+    }
 }
